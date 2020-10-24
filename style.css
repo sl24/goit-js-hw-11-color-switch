@@ -18,6 +18,9 @@ button {
   color: #006400;
   border: 2px solid #808080;
   border-radius: 10px;
+
+  transition: box-shadow 250ms linear, transform 250ms linear,
+    color 250ms linear;
 }
 
 button:not(:last-child) {
@@ -27,9 +30,10 @@ button:not(:last-child) {
 button:disabled {
   color: #4169e1;
   background-color: #a9a9a9;
-  box-shadow: -20px -15px 10px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: -10px -10px 10px 5px rgba(0, 0, 0, 0.2);
+  transform: scaleX(0.95);
 }
 
 body {
-  transition: background-color 500ms linear;
+  transition: background-color 250ms linear;
 }
