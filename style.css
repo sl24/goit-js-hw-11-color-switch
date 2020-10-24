@@ -31,7 +31,7 @@ button:disabled {
   color: #4169e1;
   background-color: #a9a9a9;
   box-shadow: -10px -10px 10px 5px rgba(0, 0, 0, 0.2);
-  transform: scaleX(0.95);
+  transform: scale(0.95);
 }
 
 body {
